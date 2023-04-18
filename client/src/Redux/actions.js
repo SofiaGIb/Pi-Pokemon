@@ -2,13 +2,16 @@ import axios from "axios";
 
 export const GET_POKEMONS = "GET_POKEMONS"
 
-const getpokemons =()=>{
-    return async (dispatch)=>{
+export const getpokemons =()=>{
+  return async function (dispatch){
+ axios.get("http://localhost:3001/pokemons")
+.then((response)=> response.data)
+.then((data)=>{
+  return dispatch({
+    type:GET_POKEMONS , 
+    payload :  data
+  })
+})
 
-          const pokemons = await axios.get("https://pokeapi.co/api/v2/pokemon");
-        }
-
-const pokemons = pokemons.data;
-dispatch({type : GET_POKEMONS, payload:pokemons})
-    
+  }   
 }

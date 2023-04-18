@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar/NavBar"
 function App() {
   return (
     <div className="App">
+      
       <NavBar/>
       <Route exact path="/" component={Landing} />
       <Route path="/Home" component={Home} />
