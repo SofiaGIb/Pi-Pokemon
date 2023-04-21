@@ -1,12 +1,12 @@
-
-
-const Form = ()=>{
-return(
-
+import FormPage from "../../components/FormPage/FormPage";
+const Form = () => {
+   
+  return (
     <>
-    <h1>VISTA DEL FORM</h1>
-    </>
+      <h1>VISTA DEL FORM</h1>
 
-)
-}
-export default Form
+      <FormPage />
+    </>
+  );
+};
+export default Form;
