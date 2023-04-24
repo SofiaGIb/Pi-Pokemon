@@ -2,7 +2,7 @@
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    border-radius: 15px;
+    border-radius: 25px;
     flex-wrap: wrap;
     gap: 1em;
 

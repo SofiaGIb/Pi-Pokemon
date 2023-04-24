@@ -3,7 +3,7 @@ import { validation } from "./validation";
 import { useDispatch, useSelector } from "react-redux";
 import { postPokemon } from "../../Redux/actions";
 import { useState,useEffect } from "react";
-import { getAllTypes } from "../../Redux/actions";
+import { getTypes } from "../../Redux/actions";
 
 
 const FormPage= () => {
@@ -38,10 +38,10 @@ const FormPage= () => {
     const value = event.target.value;
 
     setCreatePokemon({ ...createPokemon, [property]: value });
-/*     setError( validation ({ ...createPokemon, [property]: value }));
- */  };
+    setError( validation ({ ...createPokemon, [property]: value }));
+   };
  useEffect(() => {
-   dispatch(getAllTypes());
+   dispatch(getTypes());
  }, [dispatch]);
 
 
@@ -145,7 +145,7 @@ console.log(createPokemon);
         </label>
         {createPokemon.types.length > 0 &&
           createPokemon.types.map((type) => <span key={type}>*{type}</span>)}
-        <button onlick={() => onSubmit()}>AGREGAR</button>
+        <button onClick={() => onSubmit()}>AGREGAR</button>
       </form>
     </div>
   );

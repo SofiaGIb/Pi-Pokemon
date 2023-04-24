@@ -1,0 +1,24 @@
+.paginado{
+
+    background-color: rgb(211, 204, 204);
+    width: 500px;
+    height: 50px;
+}
+
+.button {
+    background-color: blueviolet;
+    font-size: medium;
+
+}
+
+.li{
+color: black;
+border: 1px solid #000;
+
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+
+}
