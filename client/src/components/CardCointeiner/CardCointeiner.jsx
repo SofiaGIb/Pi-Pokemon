@@ -5,7 +5,7 @@ import style from "./CardCointeiner.module.css";
 
 const CardContainer = ({twelvepoke}) => {
   return (
-    <div className={style.container}>
+    <div className={style.containercards}>
       {twelvepoke? (
         twelvepoke.map((poke) => {
           return (

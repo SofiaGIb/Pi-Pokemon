@@ -1,34 +1,67 @@
+
+
 .card {
-  background: radial-gradient(circle at 50% 0%, orange 36%, #eff3ff 36%);
-  width: 21 0px;
-  transform: translate(-10%, 10%);
-  top: 50%;
-  left: 50%;
-  padding: 30px 20px;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-  -webkit-box-shadow: -13px 11px 32px 0px rgba(0, 0, 0, 0.47);
-  -moz-box-shadow: -13px 11px 32px 0px rgba(0, 0, 0, 0.47);
-  box-shadow: -13px 11px 32px 0px rgba(0, 0, 0, 0.47);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(60.33% - 0px); 
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background: radial-gradient(circle at 50% 0%, rgb(216, 32, 32) 40%, transparent 45%);
+  -webkit-box-shadow: -13px 50px 42px 30px rgb(248, 245, 245);
+  -moz-box-shadow: -13px 11px 82px 80px rgba(243, 240, 240, 0.87);
+  box-shadow: -13px 91px 82px 80px rgba(173, 66, 66, 0.47);
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 90px #1f1c1c,
+              0 0 90px #130e0e,
+              0 0 30px #1a1818,
+              0 0 10px rgb(221, 194, 194),
+              0 0 10px rgb(211, 195, 195),
+              0 0 10px rgb(204, 191, 191),
+              0 0 40px rgb(241, 228, 41),
+              0 0 20px rgb(241, 227, 27);
+  border-radius: 40px;
+  color: transparent;
+  text-shadow: 0 0 60px rgb(129, 224, 224);
+  opacity: 1 ;
+  font-family: Arial; 
+  border: 1px solid rgb(196, 199, 22);
+  padding: 10px;
+
 }
 
 .card img {
 
   display: block;
-  width: 180px;
-  max-height: 200px;
+  width: calc(80%);
+  max-height: 300px;
   position: relative;
   margin: 20px auto;
+  opacity: 1
 }
 .type {
   display: flex;
   justify-content: space-around;
-  margin: 20px 0 30px 0;
+  margin: 10px 0 20px 0;
+  text-decoration:  none;
+  font-weight: 600;
+  color: rgb(33, 34, 32);
 }
 
 .name {
-  text-align: center;
-  font-weight: 600;
+  background-color: #dab3b3;
+  font-weight: 1000;
+  text-decoration:  none;
+font-size: 30PX;
+color: rgb(30, 31, 32);
+box-shadow: 0 0 90px #1f1c1c,
+0 0 90px #130e0e,
+0 0 30px #1a1818,
+0 0 10px rgb(221, 194, 194),
+0 0 10px rgb(211, 195, 195),
+0 0 10px rgb(204, 191, 191);
+border-radius: 20px;
+text-decoration:none;
 
 }
 

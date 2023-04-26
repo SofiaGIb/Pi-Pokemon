@@ -21,11 +21,11 @@ const FilterByTypes= ({setNumpag}) =>{
     }
   
     return (
-      <div className={style.filtro}>
-        <label>
+      <div className={style.filtroT}>
+        <label >
           Por Tipo -
-          <select onChange={(event)=>FilterTypes(event)}>
-            <option value="All">Todos</option>
+          <select className={style.opciones} onChange={(event)=>FilterTypes(event)}>
+            <option  value="All">Todos</option>
             {
               allTypes.map((type)=>
                 ( 

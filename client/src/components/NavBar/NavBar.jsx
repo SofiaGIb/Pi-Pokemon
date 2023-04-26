@@ -1,14 +1,12 @@
 import style from "./NavBar.module.css"
-import { Link } from "react-router-dom"
 const NavBar = ()=>{ 
     return(
-        <div className={ style.navbar }>
+        <  >
+<a href="/home"  className={style.buttonF}>HOME</a>
+<a href="/form" className={style.buttonF}> CREATE POKEMON</a>
 
-            <Link to="/Home">HOME</Link>
-    
-            <Link to="/Form">FORM</Link>      
+        </>
             
-        </div>
     )
 }
 export default NavBar

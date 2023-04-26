@@ -1,18 +1,52 @@
-* {
-  margin: auto;
-  padding: 0;
+.containernav {
+  color: rgb(103, 41, 173);
 }
 
-.navbar {
-  padding: 25px 30 25px 25px;
-  text-shadow: 1px 1px 2px #e9e5e5, 0 0 25px #d3e761, 0 0 5px #bccc2d;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  width: 20%;
-  padding: 25px 30 25px 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 15px 15px 0 15px;
+.buttonH {
+  align-items: flex-start;
+  font-family: "Arial",cursive;
+  float: unset;
+  font-weight: 200 ;
+  margin-top: 5px;
+    padding: 15px 30px;
+    color: #221e1e;
+    background-color: #51524b;
+    border: 1em rgb(199, 178, 178) ;
+    border-radius: 65px;
+    box-shadow: 0 0 10px #fff,
+                0 0 10px #fff,
+                0 0 10px #fff,
+                0 0 10px #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #ff00de,
+                 0 0 10px #ff00de,
+                 0 0 10px #ff00de,
+                 0 0 10px #ff00de;
+}
+
+.buttonF {
+  align-items: flex-start;
+  font-weight: 800 ;
+  margin-top: 5px;
+  font-family: "Arial",cursive;
+    padding: 15px 20px;
+    color: #f3e9e9;
+    background-color: #131312;
+    border: 1em rgb(47, 54, 151) solid;
+    border-radius: 65px;
+    box-shadow: 0 0 10px #fff,
+                0 0 10px #fff,
+                0 0 10px #fff,
+                0 0 10px #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #252525,
+                 0 0 10px #252325;
+}
+
+
+.cajita {
+  background-color: #f01414;
 }

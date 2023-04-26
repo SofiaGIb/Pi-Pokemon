@@ -1,3 +1,4 @@
+import style from "./Home.module.css" 
 import CardContainer from "../../components/CardCointeiner/CardCointeiner"
 import { useDispatch ,useSelector} from "react-redux"
 import { getpokemons } from "../../Redux/actions"
@@ -7,8 +8,7 @@ import FilterByTypes from "../../components/Filters/FilterByType";
 import Paginado from "../../components/Paginado/Paginado";
 import FilterAtack from "../../components/Filters/FilterAtack";
 import FilterName from "../../components/Filters/FilterName1";
-import style from "../../components/Filters/Filtertype.module.css"
-import FilterApi from "../../components/Filters/FilterApibdd"
+import FilterApi from "../../components/Filters/FilterApibdd";
 
 
 const Home = () =>{
@@ -40,10 +40,11 @@ const Home = () =>{
 
 
     return(
-        <div>
+        <div className={style.homec}>
+            <div>
+            </div>
            <Paginado   poke={poke.length} pokepag={pokepag} paginado={paginado}/>
            <div/> 
-            <h1>VISTA DE LA HOME</h1>
             <div>
             <CardContainer twelvepoke={twelvepoke}/>
             </div>
@@ -64,7 +65,7 @@ const Home = () =>{
             <FilterName setNumpag={setNumpag} nameorder={nameorder} setnameOrder={setnameOrder}/>
             </div>
 
-            <div className={style.filtro3}>
+            <div >
                 <FilterApi setNumpag={setNumpag}/>
             </div>
         </div>

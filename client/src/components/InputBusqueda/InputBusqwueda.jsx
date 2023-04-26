@@ -19,11 +19,13 @@ const Searchpoke = () => {
   return (
     <div className={style.buscar}>
       <input
+      className={style.inputs}
         type="text"
         placeholder="Name..."
         onChange={(event) => handlerSearchName(event)}
       />
-      <button onClick={() => searchName(name)}>Buscar</button>
+      <button onClick={() => searchName(name)}
+      className={style.buttons}>Buscar</button>
     </div>
   );
 };

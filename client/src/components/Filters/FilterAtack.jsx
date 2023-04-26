@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import { filtroAtaque } from "../../Redux/actions"; 
+import style from "./Filtertype.module.css"
 
 
 const FilterAtack = ({setNumpag,orderAtack,setOrderAtack}) => {
@@ -13,7 +14,7 @@ const FilterAtack = ({setNumpag,orderAtack,setOrderAtack}) => {
  }
  
   return (
-    <div>
+    <div className={style.filteratack}>
       <label htmlFor="up">
         <input
           type="radio"
@@ -22,7 +23,7 @@ const FilterAtack = ({setNumpag,orderAtack,setOrderAtack}) => {
           checked={ orderAtack === "up"}
           onChange={(event) => filterB(event)}
         />
-        atack ascendiente
+       Atack (-)
       </label>
       <label htmlFor="down">
         <input
@@ -32,7 +33,7 @@ const FilterAtack = ({setNumpag,orderAtack,setOrderAtack}) => {
           checked={ orderAtack === "down"}
           onChange={(event) => filterB(event)}
         />
-       atack  Descendiente 
+     Atack(+)
       </label>
     </div>
   );

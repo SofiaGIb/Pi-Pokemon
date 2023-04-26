@@ -1,5 +1,6 @@
 import { useDispatch } from "react-redux";
 import { filtroName } from "../../Redux/actions";
+import style from "./Filtertype.module.css"
 
 
 const FilterName = ({setNumpag,nameorder,setnameOrder})=>{
@@ -13,7 +14,7 @@ const FilterName = ({setNumpag,nameorder,setnameOrder})=>{
     }
    
     return (
-        <div>
+        <div className={style.orderad}>
         <label htmlFor="up">
           <input
             type="radio"

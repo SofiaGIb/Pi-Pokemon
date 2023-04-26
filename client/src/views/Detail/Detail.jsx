@@ -1,11 +1,8 @@
 import PokeDetails from "../../components/InfoPoke/InfoPoke";
-
+import style from "./Details.module.css"
 const Detail = () => {
   return (
     <div>
-
-
-      <h1>VISTA DE DETAIL</h1>
       
       <PokeDetails/>
 

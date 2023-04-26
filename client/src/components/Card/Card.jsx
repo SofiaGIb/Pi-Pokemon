@@ -3,6 +3,8 @@ import {Link} from "react-router-dom"
 
 const Card = ({id,name,image,types})=>{
   return (
+    <div className={style.cajacard}>
+
       <Link to={`/Detail/${id}`}>
       <div className={style.card}>
         <div className={style.name}>{name}</div>
@@ -14,6 +16,8 @@ const Card = ({id,name,image,types})=>{
         </div>
      </div>
           </Link>
+
+    </div>
     )
     
     }

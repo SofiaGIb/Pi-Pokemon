@@ -1,3 +1,4 @@
+import style from "./InfoPoke.module.css"
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
@@ -17,20 +18,24 @@ console.log(details);
   return (
     <>
       { Object.keys(details).length ? (
-        <div className="d">
+        <div 
+          className={style.imgdetail}>
           <div>
             <img
-              className="image-detail"
               src={details.image}
               alt={details.name}
             />
+          </div > 
+          <div className={style.textoefectos}>
+
+          <h1> Name : {details.name}</h1>
+          <p>Life: {details.life}</p>
+          <p> Attack: {details.attack}</p>
+          <p>Defense : {details.defense}</p>
+          <p>Speed : {details.speed}</p>
+          <ul> Type {details.types.map((type)=> <li key={type} >{type}</li>)}</ul> 
+
           </div>
-          <h1>{details.name}</h1>
-          <p>{details.life}</p>
-          <p>{details.attack}</p>
-          <p>{details.defense}</p>
-          <p>{details.speed}</p>
-          <ul>{details.types.map((type)=> <li key={type} >{type}</li>)}</ul> 
         </div>
       ) : (
         <h1>...CARGANDO</h1>
