@@ -3,20 +3,22 @@
   text-shadow: 2px 2px 0 #e0dd12, 4px 4px 0 #1e31dd, 6px 6px 0 #5a5950;
   transform: rotateY(0.5deg);
   font-size: 240%;
+  font-family: "Pokemon Solid";
 }
 .containerf{
     opacity: 0.7;
     border-radius: 4px;
     border-color: #c1d31d;
     height: auto;
+    font-family: "Pokemon Solid";
 
 }
 .buttoncreate{
   font-size: 20px;
   font-weight: 800 ;
   margin-top: 20px;
-  font-family: "Arial",cursive;
-    padding: 10px 30px;
+  font-family: "Pokemon Solid";
+     padding: 10px 30px;
     color: #e2e4d4;
     background-color: #e91212;
     border: 1em rgb(227, 241, 21) solid;
@@ -78,9 +80,11 @@
     height: 100%;
     color: rgb(0, 0, 0);
     background-color: beige;
+    font-family: "Pokemon Solid";
 }
 
 .input[type="text"], input[type=""], textarea {
+  font-family: "Pokemon Solid";
     flex: 1; 
     border: 1px solid black;
     padding: 5px;
@@ -95,6 +99,7 @@
   }
    
   .label{
+    font-family: "Pokemon Solid";
     display: flexbox;
     width: 100px; 
     text-align: right;
@@ -103,7 +108,6 @@
     font-size: 15px;
     font-weight: 800 ;
     margin-top: 8px;
-    font-family: "Arial",cursive;
       padding: 10px 20px;
       color: #000000;
       background-color: #daec34;
@@ -125,6 +129,7 @@
 
    
 .error {
+  font-family: "Pokemon Solid";
 color: #2e2d2d;   
 font-family: Arial, Helvetica, sans-serif;
 box-shadow: 0 0 20px #06460e,
@@ -142,6 +147,7 @@ text-shadow: 0 0 10px #d5dbd7,
 
 }      
 .opcionesf{
+  font-family: "Pokemon Solid";
   color: #f5ebeb;
   background-color: #d16a6a;
   font-family: Arial,cursive,bold;

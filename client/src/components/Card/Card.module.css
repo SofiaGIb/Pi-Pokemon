@@ -24,9 +24,9 @@
   color: transparent;
   text-shadow: 0 0 60px rgb(129, 224, 224);
   opacity: 1 ;
-  font-family: Arial; 
   border: 1px solid rgb(196, 199, 22);
   padding: 10px;
+  font-family: "Pokemon Solid";
 
 }
 
@@ -40,6 +40,7 @@
   opacity: 1
 }
 .type {
+  font-family: "Pokemon Solid";
   display: flex;
   justify-content: space-around;
   margin: 10px 0 20px 0;
@@ -49,6 +50,7 @@
 }
 
 .name {
+  font-family: "Pokemon Solid";
   background-color: #dab3b3;
   font-weight: 1000;
   text-decoration:  none;

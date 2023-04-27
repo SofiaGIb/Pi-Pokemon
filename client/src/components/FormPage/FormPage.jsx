@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { postPokemon } from "../../Redux/actions";
 import { useState,useEffect } from "react";
 import { getTypes } from "../../Redux/actions";
+import { Link } from "react-router-dom";
 
 
 const FormPage= () => {
@@ -72,6 +73,11 @@ const FormPage= () => {
 console.log(createPokemon);
   return (
     <div className={style.imgfor}>
+      <div>
+        <Link to="/home">
+        <h1>HOME </h1>
+        </Link>
+        </div>
       <h3 className={style.titulo}>C R E A T E      Y O U      P O K E M O N</h3>
       <form className={style.containerf}>
         <div>

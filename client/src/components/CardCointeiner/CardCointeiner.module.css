@@ -3,8 +3,8 @@
   grid-template-columns: repeat(3, 1fr); 
   grid-template-rows: repeat(2, 1fr); 
     justify-content: space-between;
-padding:40px 0px 20px 190px;   
-   margin-top: 120px;
+padding:60px 0px 20px 290px;   
+   margin-top: 180px;
    margin-right: 30px;
 }
 

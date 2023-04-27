@@ -13,10 +13,12 @@
     object-fit: cover;
     color: rgb(0, 0, 0);
     opacity: 0.99;
+    font-family: "Pokemon Solid";
   
 }
 
 .textoefectos {
+    font-family: "Pokemon Solid";
     padding: 10px 0 10px 10px;
     display: inline-block;
         font-size: 32px;

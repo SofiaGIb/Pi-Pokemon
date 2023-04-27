@@ -1,49 +1,38 @@
 .containernav {
   color: rgb(103, 41, 173);
+  display: flex;
 }
 
 .buttonH {
-  align-items: flex-start;
-  font-family: "Arial",cursive;
-  float: unset;
-  font-weight: 200 ;
+  display: flex;
+  align-items: center;
+  font-weight: 10px ;
+  width: 140px;
+  height: 50px;
   margin-top: 5px;
-    padding: 15px 30px;
-    color: #221e1e;
-    background-color: #51524b;
-    border: 1em rgb(199, 178, 178) ;
-    border-radius: 65px;
-    box-shadow: 0 0 10px #fff,
-                0 0 10px #fff,
-                0 0 10px #fff,
-                0 0 10px #fff;
-    text-shadow: 0 0 10px #fff,
-                 0 0 20px #fff,
-                 0 0 10px #fff,
-                 0 0 10px #ff00de,
-                 0 0 10px #ff00de,
-                 0 0 10px #ff00de,
-                 0 0 10px #ff00de;
-}
-
-.buttonF {
-  align-items: flex-start;
-  font-weight: 800 ;
-  margin-top: 5px;
-  font-family: "Arial",cursive;
-    padding: 15px 20px;
-    color: #f3e9e9;
+  font-family: "Pokemon Solid";
+      padding: 1px 20px;
+    color: #bbdd22;
     background-color: #131312;
     border: 1em rgb(47, 54, 151) solid;
     border-radius: 65px;
-    box-shadow: 0 0 10px #fff,
-                0 0 10px #fff,
-                0 0 10px #fff,
-                0 0 10px #fff;
-    text-shadow: 0 0 10px #fff,
-                 0 0 10px #fff,
-                 0 0 10px #252525,
-                 0 0 10px #252325;
+
+
+}
+
+.buttonF {
+  display: flex;
+  align-items: center;
+  font-weight: 10px ;
+  width: 140px;
+  height: 50px;
+  margin-top: 5px;
+  font-family: "Pokemon Solid";
+      padding: 1px 20px;
+    color: #bbdd22;
+    background-color: #131312;
+    border: 1em rgb(47, 54, 151) solid;
+    border-radius: 65px;
 }
 
 

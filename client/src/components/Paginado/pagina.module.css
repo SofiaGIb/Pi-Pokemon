@@ -1,16 +1,18 @@
 .paginado{
-
-    width: 500px;
-    height: 50px;
+top: 40px;
+position: absolute;
+    width: 800px;
+    height: 450px;
 }
 
 .button  {
-  margin-top: -80%;
+
+  margin-top: -70%;
   margin-left: 1780%;
     font-size: 20px;
     padding: 10px 15px ;
     color: #fff;
-    background-color: #2e2b2b;
+    background-color: #5f2121;
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 10px #fff,

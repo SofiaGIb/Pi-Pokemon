@@ -9,6 +9,7 @@ import Paginado from "../../components/Paginado/Paginado";
 import FilterAtack from "../../components/Filters/FilterAtack";
 import FilterName from "../../components/Filters/FilterName1";
 import FilterApi from "../../components/Filters/FilterApibdd";
+import NavBar from "../../components/NavBar/NavBar";
 
 
 const Home = () =>{
@@ -41,6 +42,7 @@ const Home = () =>{
 
     return(
         <div className={style.homec}>
+            <NavBar/>
             <div>
             </div>
            <Paginado   poke={poke.length} pokepag={pokepag} paginado={paginado}/>
